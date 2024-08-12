@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.cta-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+h1, h2 {
+    color: #4CAF50; /* Green */
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.5rem;
+    }
+}

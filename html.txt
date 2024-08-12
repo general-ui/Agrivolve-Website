@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agrivolve Limited - Pioneering sustainable vertical farming and hydroponics in Kenya.">
+    <title>Agrivolve Limited</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        nav a {
+            display: inline-block;
+            padding: 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrivolve Limited</h1>
+        <p>Pioneering sustainable vertical farming and hydroponics in Kenya</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Agrivolve</h2>
+            <p>Transforming agriculture with innovative vertical farming and hydroponic systems.</p>
+        </section>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Agrivolve is committed to advancing sustainable farming practices in Kenya through cutting-edge technology.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer state-of-the-art vertical farming and hydroponic solutions for greenhouses.</p>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>Explore our range of vertical farming and hydroponic systems designed for efficiency and sustainability.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? <a href="mailto:info@agrivolve.com">Email us</a> or <a href="#" class="cta-button">Chat with us</a></p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Read our latest updates and insights on sustainable farming.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Agrivolve Limited</p>
+        <p><a href="https://www.facebook.com/agrivolve" target="_blank">Facebook</a> | <a href="https://twitter.com/agrivolve" target="_blank">Twitter</a> | <a href="https://www.instagram.com/agrivolve" target="_blank">Instagram</a></p>
+    </footer>
+    <script src="https://www.google-analytics.com/analytics.js"></script>
+</body>
+</html>
